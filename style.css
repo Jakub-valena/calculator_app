@@ -1,3 +1,4 @@
+/* COLOR VARIABLES */
 :root {
   --background-color: #202020;
   --calculator-bg: #e3e3e3;
@@ -5,6 +6,7 @@
   --operation: #ff8000;
 }
 
+/* BODY STYLES */
 body {
   height: 100vh;
   margin: 0;
@@ -15,6 +17,7 @@ body {
   background: var(--background-color);
 }
 
+/* CALCULATOR CONTAINER */
 #container {
   width: 400px;
   height: 650px;
@@ -27,6 +30,7 @@ body {
   border-radius: 25px;
 }
 
+/* RESULT */
 #result-divider {
   height: 150px;
   width: 100%;
@@ -44,6 +48,7 @@ body {
   text-align: right;
 }
 
+/* BUTTONS */
 #buttons {
   height: calc(650px - 150px);
   width: 100%;
